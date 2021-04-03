@@ -294,10 +294,11 @@ section .title::after{
     color: #99b898;
     transition: color 0.3s ease;
 }
-.services .serv-content .card:hover i{
+.services .serv-content .card:hover a{
     color: #fff;
 }
 .services .serv-content .card .text{
+    color: #fff;
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
@@ -363,10 +364,10 @@ section .title::after{
     background: #565d47;
 }
 .skills-content .right .html::before{
-    width: 85%;
+    width: 80%;
 }
 .skills-content .right .css::before{
-    width: 90%;
+    width: 85%;
 }
 .skills-content .right .js::before{
     width: 90%;
@@ -375,7 +376,7 @@ section .title::after{
     width: 95%;
 }
 .skills-content .right .mysql::before{
-    width: 70%;
+    width: 75%;
 }
 
 /* contact section styling */
