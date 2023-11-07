@@ -12,6 +12,21 @@
 </head>
 
 <body>
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <div id="navbar-container"></div>
+    <!-- The rest of your page content -->
+    <!-- Add your main content here -->
+    <script>
+        // JavaScript to load the navbar content
+        const navbarContainer = document.getElementById('navbar-container');
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                navbarContainer.innerHTML = data;
+            });
+    </script>
     <main class="page projects-page">
         <section class="portfolio-block projects-cards">
             <div class="container">
@@ -19,12 +34,68 @@
                     <h2>App Development</h2>
                 </div>
                 <div class="row">
+
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Boston Hacks 2020 Fit @ Home Demonstration.mp4" alt="Card Image"></a>
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Meetup.mp4" alt="Card Image"></a>
                             <div class="card-body">
-                                <h6><a href="#">Fit @ Home - Android Studio</a></h6>
-                                <p class="text-muted card-text">Fit @ Home provides a ubiquitous amount of workout videos whatever you want, and whenever you want it! With 12 different workout styles, Fit @ Home fulfills an individual's daily fitness and health requirements.</p>
+                                <h6><a href="#">Meetup</a></h6>
+                                <p class="text-muted card-text">This web/mobile application streamlines the process for students to register via a Google Form. Administrators can initiate new rounds and automatically notify students via email. Students have the flexibility to opt in or out of each round through unique links, and administrators can efficiently match students based on their preferences, sending email notifications to the matched groups, facilitating a seamless and organized matching system.</p>
                             </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Solmaz_Wasteagram.mov" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Wasteagram</a></h6>
+                                <p class="text-muted card-text">Wasteagram, a mobile app that enables restaurants/coffees employees to document daily food waste in the form of "posts" consisting of a photo, number of leftover items, the current date, and the location of the device when the post is created. The application will also display a list of all previous posts.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Solmaz_Journal.mov" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Journal</a></h6>
+                                <p class="text-muted card-text">This Flutter mobile app, powered by SQFlite, provides users with a versatile journaling experience, allowing them to record entries with dates and ratings. When viewed in landscape mode, the app dynamically adapts to enhance readability and user interaction, ensuring a seamless and engaging journaling journey.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Solmaz_Project3.mov" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Call Me Maybe - Job App</a></h6>
+                                <p class="text-muted card-text">This Flutter mobile app seamlessly combines the functionality of a digital business card and a resume builder, making networking and job application processes efficient. Additionally, it includes an interview predictor feature.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Solmaz_Space_Game.mov" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Space Game</a></h6>
+                                <p class="text-muted card-text">A simple exploration of the solar system (or, really, an exploration of the Dart language).</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Project1.mov" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Vocabulary Builder</a></h6>
+                                <p class="text-muted card-text">This Flutter-based mobile app is your go-to vocabulary builder, offering a daily dose of random words for expansion. You can also bookmark your favorite words for convenient revisits and accelerated language growth.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Boston Hacks 2020 Fit @ Home Demonstration.mp4" alt="Card Image"></a>
+                        <div class="card-body">
+                            <h6><a href="#">Fit @ Home - Android Studio</a></h6>
+                            <p class="text-muted card-text">Fit @ Home provides a ubiquitous amount of workout videos whatever you want, and whenever you want it! With 12 different workout styles, Fit @ Home fulfills an individual's daily fitness and health requirements.</p>
                         </div>
                     </div>
                 </div>
