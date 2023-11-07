@@ -12,6 +12,18 @@
 </head>
 
 <body>
+    <div id="navbar-container"></div>
+    <!-- The rest of your page content -->
+    <!-- Add your main content here -->
+    <script>
+        // JavaScript to load the navbar content
+        const navbarContainer = document.getElementById('navbar-container');
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                navbarContainer.innerHTML = data;
+            });
+    </script>
     <main class="page projects-page">
         <section class="portfolio-block projects-cards">
             <div class="container">
@@ -51,15 +63,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/" alt="Card Image"></a>
-                            <div class="card-body">
-                                <h6><a href="#">VR Car Showroom - video coming soon</a></h6>
-                                <p class="text-muted card-text">Implemented an interactive user interface for users to change the environment of the displayed car and developed car customization features for users to change the appearance of the cars as desired (Unity)</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                
             </div>
         </section>
     </main>
