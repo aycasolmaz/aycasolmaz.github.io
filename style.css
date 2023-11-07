@@ -113,8 +113,8 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: #fff;
-    font-size: 18px;
+    color: #052714;
+    font-size: 30px;
     font-weight: 500;
     margin-left: 25px;
     transition: color 0.3s ease;
@@ -364,19 +364,28 @@ section .title::after{
     background: #565d47;
 }
 .skills-content .right .html::before{
-    width: 80%;
+    width: 95%;
 }
 .skills-content .right .css::before{
-    width: 85%;
+    width: 70%;
 }
 .skills-content .right .js::before{
-    width: 90%;
+    width: 100%;
 }
 .skills-content .right .php::before{
     width: 95%;
 }
 .skills-content .right .mysql::before{
-    width: 75%;
+    width: 85%;
+}
+.skills-content .right .cloud::before{
+    width: 90%;
+}
+.skills-content .right .app::before{
+    width: 90%;
+}
+.skills-content .right .deployment::before{
+    width: 85%;
 }
 
 /* contact section styling */
