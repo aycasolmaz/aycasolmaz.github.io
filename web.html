@@ -12,19 +12,56 @@
 </head>
 
 <body>
+    <div id="navbar-container"></div>
+    <!-- The rest of your page content -->
+    <!-- Add your main content here -->
+    <script>
+        // JavaScript to load the navbar content
+        const navbarContainer = document.getElementById('navbar-container');
+        fetch('navbar.html')
+            .then(response => response.text())
+            .then(data => {
+                navbarContainer.innerHTML = data;
+            });
+    </script>
     <main class="page projects-page">
         <section class="portfolio-block projects-cards">
             <div class="container">
                 <div class="heading">
                     <h2>Web Development</h2>
                 </div>
+                
                 <div class="row">
                     <div class="col-md-6 col-lg-4">
-                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Screen Recording 2021-04-03 at 6.33.09 PM.mov" alt="Card Image"></a>
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Savor.mp4" alt="Card Image"></a>
                             <div class="card-body">
-                                <h6><a href="#">Eyeball - CV, ML, HTML5/CSS/JS (Work in Progress)</a></h6>
-                                <p class="text-muted card-text">EyeBall aims to obtain and broadcast game footage for amateur players and basketball clubs. From live games recorded on a commercial off-the-shelf panoramic camera, EyeBall uses computer vision to track the "action" on the court and livestream HQ broadcast quality footage of the game. We strive to provide more power to the players by providing them with the means to use their game and practice footage to build an online profile, connect with scouts and recruiters, generate highlight reels and skill clips, and improve the feedback process. International amateur basketball players don’t have an efficient way to showcase their skills to scouts and recruiters, and especially have trouble connecting with American programs.</p>
+                                <h6><a href="#">Savor</a></h6>
+                                <p class="text-muted card-text">Savor offers a myriad of recipes and lets you customize your own grocery list in order to save food waste. Built with React.js and Firebase, this app is the perfect way to organize your meals.</p>
                             </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Vue.mp4" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Vue.js Demo Portfolio</a></h6>
+                                <p class="text-muted card-text">Demo application for a personal portfolio website using Vue.js.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/CS411 Final Presentation - Lab A5.mp4" alt="Card Image"></a>
+                            <div class="card-body">
+                                <h6><a href="#">Moodify</a></h6>
+                                <p class="text-muted card-text">A web application that helps users find playlists on Spotify based on the weather and their mood.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div class="card border-0"><a href="#"><video class="card-img-top scale-on-hover" width="330px" height="220px" controls src="images/Screen Recording 2021-04-03 at 6.33.09 PM.mov" alt="Card Image"></a>
+                        <div class="card-body">
+                            <h6><a href="#">Eyeball - CV, ML, HTML5/CSS/JS (Work in Progress)</a></h6>
+                            <p class="text-muted card-text">EyeBall aims to obtain and broadcast game footage for amateur players and basketball clubs. From live games recorded on a commercial off-the-shelf panoramic camera, EyeBall uses computer vision to track the "action" on the court and livestream HQ broadcast quality footage of the game. We strive to provide more power to the players by providing them with the means to use their game and practice footage to build an online profile, connect with scouts and recruiters, generate highlight reels and skill clips, and improve the feedback process. International amateur basketball players don’t have an efficient way to showcase their skills to scouts and recruiters, and especially have trouble connecting with American programs.</p>
                         </div>
                     </div>
                 </div>
